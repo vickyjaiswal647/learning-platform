@@ -27,11 +27,7 @@ if (process.env.NODE_ENV == "development") {
   const dbUrl = require("../config/keys").mongoURI;
 
   const db = async () => {
-    await mongoose.connect(dbUrl, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
-    });
+    await mongoose.connect(dbUrl,{});
     return mongoose;
   };
 

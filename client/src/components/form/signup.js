@@ -121,7 +121,7 @@ const SignUp1 = () => {
         e.preventDefault();
         const {email} = evalues;
         
-        const response = await fetch( `${window.location.origin}/users/sign-up`, {
+        const response = await fetch("http://localhost:4000/users/sign-up", {
             method : "POST",
             mode:'cors',
             headers : {
