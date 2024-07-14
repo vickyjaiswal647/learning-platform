@@ -1,0 +1,15 @@
+.container1{
+    background-color:whitesmoke;
+    margin:5% 11.5%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:3.4rem;
+    border-radius:10px;
+    border: 1px solid black;
+    height: auto;
+}
+
+.container1>h1{
+    margin-bottom:1.2rem;
+}

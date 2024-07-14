@@ -1,0 +1,23 @@
+.groupCard {
+    margin: 80px;
+    margin-left: 100px;
+}
+
+/* .backimage{
+    background-image: url("https://img.freepik.com/free-vector/back-school-background-watercolor-style_23-2148593948.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%
+} */
+
+.heading1 {
+    margin:15px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+.groupCard__section {
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    align-items: center;
+}

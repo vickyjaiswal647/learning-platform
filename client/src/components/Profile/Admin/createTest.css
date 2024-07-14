@@ -1,0 +1,73 @@
+.form-control {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    min-height: 850px;
+    width: 60%;
+    align-items: center;
+    background-color: rgb(214, 211, 211);
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.create-test-heading {
+    border-bottom: 1px solid black;
+    height: 60px;
+}
+
+#test-heading>h3{
+    font-size:100%;
+}
+
+#test-heading {
+    margin-top: 30px;
+}
+
+.test-input {
+   padding: 1% 1% 5% 1%;
+   margin: 3%;
+   margin-top: 10%;
+   text-align: left;
+}
+
+.test-name {
+ 
+}
+.test-code {
+    margin-top: 30px;
+}
+.total-question-uploaded {
+    margin-top: 30px;
+}
+.total-question-attempted {
+    margin-top: 30px;
+}
+.test-time-duration {
+    margin-top: 30px;
+}
+
+.semester1{
+    margin-top: 30px;
+}
+
+.testActivationTime{
+    margin-top: 30px;
+}
+
+.test-button{
+    display: flex;
+    justify-content: center;
+    padding-top:25px;
+    padding-bottom:50px;
+    
+}
+
+.upload-button{
+    width: 50%;
+    background-color: #1888ff
+}
+.upload-button:hover {
+    background-color: #1865da;
+}
+  
