@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/vickyjaiswal647/learning-platform/issues"
   },
-  "homepage": "https://github.com/vickyjaiswal647/learning-platform#readme",
+  "homepage": "https://learning-platform-l4rc4pmr5-vicky-jaiswals-projects.vercel.app/",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "bcrypt": "^5.1.1",
