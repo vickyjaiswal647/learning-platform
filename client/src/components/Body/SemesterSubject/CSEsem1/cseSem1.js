@@ -92,7 +92,7 @@ const Subject = ({ state }) => {
         {!state ? (
           <>
             {" "}
-            {subject.map((data) => {
+            {subject?.map((data) => {
               return (
                 <div
                   key={data.id}
