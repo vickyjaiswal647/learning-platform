@@ -9,6 +9,7 @@
     "html-to-draftjs": "^1.5.0",
     "interweave": "^13.1.0",
     "material-table": "^2.0.5",
+    "install": "^0.13.0",
     "npm": "^8.2.0",
     "react": "^17.0.2",
     "react-bootstrap-table": "^4.3.1",
