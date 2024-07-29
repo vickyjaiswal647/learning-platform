@@ -1,0 +1,136 @@
+.testName{
+    padding:20px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .mcq{
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin:70px;
+      padding:10px;
+  }
+  
+  .idq{
+      border-radius: 10px;
+      background-color:azure;
+      margin:15px;
+  }
+  
+  .question{
+      text-align: left;
+  }
+  
+  .question>p{
+      font-family:'Times New Roman', Times, serif;
+      font-size:20px;
+      padding:20px 20px 0px 20px;
+      font-weight:bold;
+      color:black;
+  }
+  
+  .radio{
+      padding: 20px;
+  }
+  
+  .btn{
+      padding:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  /* .App {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100vw;
+    } */
+    
+    .user {
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: #b3e3ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 500px;
+      height: 300px;
+      margin: 20px;
+    }
+    
+    .paginationBttns {
+      width: 80%;
+      height: 40px;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .paginationBttns a {
+      padding: 10px;
+      margin: 8px;
+      border-radius: 5px;
+      border: 1px solid #2b2eff;
+      color: #2b2eff;
+      cursor: pointer;
+    }
+    
+    .paginationBttns a:hover {
+      color: white;
+      background-color: #2b2eff;
+    }
+    
+    .paginationActive a {
+      color: white;
+      background-color: #2b2eff;
+    }
+    
+    .paginationDisabled a {
+      color: grey;
+      background-color: grey;
+    }
+  
+  .extraQuestion{
+      margin: 50px auto;;
+      display: flex;
+  }
+  
+  .Question{
+      background-color:rgb(185, 189, 189);
+      height: 30rem;
+      width: 100%;
+      margin: 10px;
+      border-radius: 10px;
+      overflow:auto;
+      box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  }
+  
+  .Question h3{
+    padding-left: 15px;
+  }
+  
+  .Question p{
+    padding-left: 15px;
+    font-size: large;
+    line-height: 1;
+  
+  }
+  
+  .answer{
+      background-color:rgb(175, 170, 170);
+      height: 30rem;
+      width: 100%;
+      margin: auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  }
+  
+  .paginationtheme{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+  }

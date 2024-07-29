@@ -1,0 +1,19 @@
+.Activate{
+    margin:15% auto;
+    width: 60%;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding:3%;
+}
+
+.button{
+    padding:1.8%;
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+}

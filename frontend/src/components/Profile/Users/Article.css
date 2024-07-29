@@ -1,0 +1,32 @@
+.container2{
+    background-color:whitesmoke;
+    margin:80px 280px;
+    display:flex;
+    font-family:Lucida Casual;
+    flex-direction:column;
+    align-items:center;
+    padding:50px;
+    border-radius:10px;
+    border: 1px solid black;
+}
+
+.container2>h1{
+    margin-bottom:20px;
+}
+
+.container2 .editorContainer{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.editorContainer{
+    width: 80%;
+    height: 400px;
+    overflow:auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.editorContainer:hover{
+    transition: scale(1);
+    background-color: white;
+}

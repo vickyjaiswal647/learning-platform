@@ -1,0 +1,73 @@
+.article{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:4%;
+    width:68%;
+    display: inline-block;
+    position: relative;
+    background-color:rgb(0, 0, 0);
+    padding: 3% 0%;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+.content{
+    text-align: left;
+    padding: 0rem 3rem;
+}
+.content p{
+    padding-top: 20px;
+    padding-right: 20px;
+    line-height: 1.8;
+    font-size:1.1rem;
+    font-weight: normal;
+}
+
+.editIcon{
+    cursor:pointer;
+    color:aliceblue;
+    background-color:rgba(238, 232, 232, 0.685);
+    border : 1px solid black;
+    border-radius:20px;
+}
+
+.likeIcon{
+    cursor:pointer;
+    color:black;
+    background-color:transparent rgba(0, 0, 0, 0.418);
+    border : 1px solid black;
+    border-radius:10px;
+    padding : 2% 5%;
+    margin : 1%;
+}
+
+.loveitIcon{
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(238, 11, 11);
+    background-color:white;
+    border : 2px solid white;
+    border-radius:10px;
+    width:9rem;
+    text-align:center;
+    position: relative;
+    padding:13px;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+.disableLoveIcon{
+    display:inline-block;
+    cursor:pointer;
+    color: white;
+    background-color:rgb(243, 3, 3);
+    border : 2px solid white;
+    border-radius:10px;
+    width:9rem;
+    text-align:center;
+    position: relative;
+    padding:13px;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './posts.css'
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import { Markup } from 'interweave';
 
 const Posts = ({publicId}) => {

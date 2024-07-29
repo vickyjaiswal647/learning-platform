@@ -121,7 +121,7 @@ const SignUp1 = () => {
         e.preventDefault();
         const {email} = evalues;
         
-        const response = await fetch("http://localhost:4000/users/sign-up", {
+        const response = await fetch("https://learning-platform-9h3j.onrender.com/users/sign-up", {
             method : "POST",
             mode:'cors',
             headers : {
